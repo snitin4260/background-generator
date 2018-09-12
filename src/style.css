@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #8b104e, #5f1854);
+    height: 100vh;
+    font-family: 'Roboto',
+    sans-serif;
+    color: teal;
+
+} 
+
+#firstColor {
+    margin-right: 10px;
+}
+
+.container {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 35px;
+}
+
+.backgroundTextBox {
+    text-align: center;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+span {
+    display: inline-block;
+    font-size: 30px;
+    background-color: white;
+    color: teal;  
+    padding: 10px;
+}
